@@ -1,0 +1,125 @@
+
+body {
+    background-color: rgb(252, 251, 251);
+	/*margin: 0;*/
+	padding: 0;
+	/*position: relative;*/
+	/*width: auto 0;*/
+    display: block;
+    margin: 8px;
+}
+container{ display:block; margin: auto 0;}
+.logo {
+    text-align: center;
+    margin: 0;
+	padding: 0;
+}
+.logo-row {
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+}
+header{
+    /*width: 25%;
+    float: left;*/
+    position: sticky;
+    top:0;
+    background-color:white;
+    height:190px;
+    
+}
+h2,h4{text-align: center;}
+
+nav{
+    padding:1%;
+    margin-bottom: 1%;
+}
+
+nav ul{
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Send Flowers', cursive;
+    
+   }
+
+nav li{
+    font-size: 1.75em;
+    font-family: 'Send Flowers', cursive;
+    list-style-type: none;
+    text-align: center;
+    }
+
+nav li a{
+    display: block;
+    color: rgb(255, 36, 36);
+    padding: 0.5em 1em;
+    text-decoration: none;
+    font-family: 'Send Flowers', cursive;
+    border-bottom: solid 2px rgb(225,36,36);
+       
+}
+
+p { color: #685206; 
+    font-family: 'Helvetica Neue', 
+    sans-serif; font-size: 14px; 
+    line-height: 24px; 
+    margin: 0 0 24px; 
+    text-align: justify; 
+    text-justify: inter-word; }
+
+img {
+   /*vertical-align: middle;*/
+    max-width: 100%;
+    display: block;
+   text-align: center;
+}
+
+
+main{
+    clear: left;
+    background-color: #fff;
+    padding: 2%;
+    font-size: 1.25em;
+    font-family: 'Roboto', sans-serif;
+}
+
+a.tel-link{
+        color:rgb(225,36,36);
+        text-decoration: none;
+        font-size:1.5em;
+        display: block;
+    text-align: center;
+    }
+    
+    .tel-link{
+        background-color: #404040;
+        padding:2%;
+        margin: 0;
+        width: 80%;
+        text-align: center;
+        border-radius: 5px;
+    }
+footer{
+    font-size:0.75em;
+    text-align: center;
+    color:rgb(225,36,36);
+    padding:0 1em;
+}
+footer p{
+    color:rgb(225,36,36);
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+contact.id{
+        text-align:center;
+    }
+    contact.id a{
+        
+        color:#666600;
+        text-decoration: none;
+    }
+.map{
+    border: 8px solid #000;
+    }
